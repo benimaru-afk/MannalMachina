@@ -841,11 +841,27 @@ main {
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
+.skills-title {
+  margin-bottom: 20px;
+  color: white; /* Add this line */
+}
+
+.skills-list {
+  padding: 20px;
+  color: white; /* Add this line */
+}
+
+.skills-item:not(:last-child) {
+  margin-bottom: 15px;
+  color: white; /* Add this line */
+}
+
 .skill .title-wrapper {
   display: flex;
   align-items: center;
   gap: 5px;
   margin-bottom: 8px;
+  color: white; /* Add this line */
 }
 
 .skill .title-wrapper data {
@@ -867,8 +883,20 @@ main {
   border-radius: inherit;
 }
 
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: disc;
+  padding-left: 20px;
+  color: white; /* Add this line */
+}
 
-
+.skills-item {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5px 0;
+  color: white; /* Add this line */
+}
 
 
 /*-----------------------------------*\
